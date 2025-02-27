@@ -1,13 +1,25 @@
-# Sample Hardhat Project
+# Hardhat Fund-Withdraw
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+## Getting Started
+### Requirements
 
-Try running some of the following tasks:
+- [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+- [Nodejs](https://nodejs.org/en/)
+- [npm](https://www.npmjs.com/)
+  
+### Quickstart
+```bash
+git clone https://github.com/mm1014/Fund
+cd Fund
+npm install
+```
 
-```shell
-npx hardhat help
+## Usage
+### Deploy:
+```bash
+npx hardhat deploy
+```
+### Testing
+```bash
 npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
 ```
